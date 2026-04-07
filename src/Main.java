@@ -1,3 +1,5 @@
+import javafx.geometry.Point3D;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -24,14 +26,14 @@ public class Main extends JFrame implements KeyListener {
         pause = true;
         while (planets.massList.size() > 0)
             planets.massList.remove(0);
-        planets.massList.add(new Mass(0, 0, 10e6F, 2e30F, 0, 0, 0, "Sun"));
-        planets.massList.add(new Mass(57.9e6F, 0, 4879F, 0.330e24F, 0, 47.4F, 0.000001239580435, "Mercury"));
-        planets.massList.add(new Mass(108.2e6F, 0, 12104F, 4.867e24F, 0, 35F, 0.0000002992454696, "Venus"));
-        planets.massList.add(new Mass(149.6e6F, 0, 12756F, 5.97e24F, 0, 29.8F, 0.00007292462056, "Earth"));
-        planets.massList.add(new Mass(149.984e6F, 0, 3475F, .07346e24F, 0, 30.822F, -0.0000027132, "Moon"));
-        planets.massList.add(new Mass(228e6F, 0, 6792F, 0.642e24F, 0, 24.1F, 0.00007094834358, "Mars"));
-        planets.massList.add(new Mass(778.5e6F, 0, 142984F, 1898e24F, 0, 13.1F, 0.0001759995884, "Jupiter"));
-        planets.massList.add(new Mass(1432e6F, 0, 120536F, 568e24F, 0, 9.7, 0, "Saturn"));
+        planets.massList.add(new Mass(new Point3D(0, 0, 0), 10e6F, 2e30F, new Point3D(0, 0, 0), 0, "Sun"));
+        planets.massList.add(new Mass(new Point3D(57.9e6F, 0, 0), 4879F, 0.330e24F, new Point3D(0, 47.4F, 0), 0.000001239580435, "Mercury"));
+        planets.massList.add(new Mass(new Point3D(108.2e6F, 0, 0), 12104F, 4.867e24F, new Point3D(0, 35F, 0), 0.0000002992454696, "Venus"));
+        planets.massList.add(new Mass(new Point3D(149.6e6F, 0, 0), 12756F, 5.97e24F, new Point3D(0, 29.8F, 0), 0.00007292462056, "Earth"));
+        planets.massList.add(new Mass(new Point3D(149.984e6F, 0, 0), 3475F, .07346e24F, new Point3D(0, 30.822F, 0), -0.0000027132, "Moon"));
+        planets.massList.add(new Mass(new Point3D(228e6F, 0, 0), 6792F, 0.642e24F, new Point3D(0, 24.1F, 0), 0.00007094834358, "Mars"));
+        planets.massList.add(new Mass(new Point3D(778.5e6F, 0, 0), 142984F, 1898e24F, new Point3D(0, 13.1F, 0), 0.0001759995884, "Jupiter"));
+        planets.massList.add(new Mass(new Point3D(1432e6F, 0, 0), 120536F, 568e24F, new Point3D(0, 9.7, 0), 0, "Saturn"));
 
         planets.lastDraw = 0;
         startTime = 0;
@@ -108,18 +110,18 @@ public class Main extends JFrame implements KeyListener {
                 restart();
                 break;
             case KeyEvent.VK_L:
-                Rocket rocket = new Rocket(149.6e6F+12756, 0, 1000, 100, 0, 29.8F, 0, "Rocket",
+                Rocket rocket = new Rocket(new Point3D(149.6e6F + 12756, 0, 0), 1000, 100, new Point3D(0, 29.8F, 0), 0, "Rocket",
                         3);
-                rocket.engineMaxTrust =6.5;
-                rocket.fuelLevel=1000;
-                rocket.fuelConsumption=1;
-                rocket.direction = Math.PI/2;
+                rocket.engineMaxTrust = 6.5;
+                rocket.fuelLevel = 1000;
+                rocket.fuelConsumption = 1;
+                rocket.direction = new Point3D(0, 1, 0);
                 rocket.launchStepList = new ArrayList<>();
-                rocket.launchStepList.add(new LaunchStep(80,1, 0));
-                rocket.launchStepList.add(new LaunchStep(300,1, Math.PI/2/220));
-                rocket.launchStepList.add(new LaunchStep(800,1,Math.PI/2/5000));
-                rocket.launchStepList.add(new LaunchStep(7400,0, Math.PI/2/4000));
-                rocket.launchStepList.add(new LaunchStep(7470,.8, Math.PI/2/6000));
+                rocket.launchStepList.add(new LaunchStep(80, 1, new Point3D(0, 1, 0)));
+                rocket.launchStepList.add(new LaunchStep(300, 1, new Point3D(0, 1, 0)));
+                rocket.launchStepList.add(new LaunchStep(800, 1, new Point3D(0, 1, 0)));
+                rocket.launchStepList.add(new LaunchStep(7400, 0, new Point3D(0, 1, 0)));
+                rocket.launchStepList.add(new LaunchStep(7470, .8, new Point3D(0, 1, 0)));
                 planets.massList.add(rocket);
                 rocket.Launch(planets.startTime, planets);
                 break;

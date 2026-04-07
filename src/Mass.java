@@ -1,3 +1,4 @@
+import javafx.geometry.Point3D;
 import lombok.extern.java.Log;
 
 import java.awt.*;
@@ -12,18 +13,18 @@ public class Mass {
     double radius;
     double mass;
     Double dist;
-    Point2D.Double pos;
-    Point2D.Double speed;
+    Point3D pos;
+    Point3D speed;
     String name;
 
     double rotationSpeed;
     double rotationAngle = 0;
 
-    public Mass(double x, double y, double radius, double mass, double speedx, double speedy, double rotationSpeed, String name) {
+    public Mass(Point3D pos, double radius, double mass, Point3D speed, double rotationSpeed, String name) {
         this.radius = radius;
         this.mass = mass;
-        this.pos = new Point2D.Double(x, y);
-        this.speed = new Point2D.Double(speedx, speedy);
+        this.pos = pos;
+        this.speed = speed;
         this.name = name;
         this.dist = 0D;
         this.rotationSpeed = rotationSpeed;
@@ -39,19 +40,19 @@ public class Mass {
 
         g2d.draw(circ);
 
-        g2d.drawLine((int) (pos.x * scale - offset.getX()), (int) (pos.y * scale - offset.getY()),
-                (int) ((pos.x + drawRad / scale * Math.sin(rotationAngle)) * scale - offset.getX()),
-                (int) ((pos.y + drawRad / scale * Math.cos(rotationAngle)) * scale - offset.getY()));
+        g2d.drawLine((int) (pos.getX() * scale - offset.getX()), (int) (pos.getY() * scale - offset.getY()),
+                (int) ((pos.getX() + drawRad / scale * Math.sin(rotationAngle)) * scale - offset.getX()),
+                (int) ((pos.getY() + drawRad / scale * Math.cos(rotationAngle)) * scale - offset.getY()));
 
         if (drawTable) {
             g2d.drawString(name, 10, 65 + i * 15);
-            g2d.drawString(df.format(speed.x) + ", " + df.format(speed.y), 80, 65 + i * 15);
-            g2d.drawString(df.format(pos.x) + ", " + df.format(pos.y), 200, 65 + i * 15);
+            g2d.drawString(df.format(speed.getX()) + ", " + df.format(speed.getY()), 80, 65 + i * 15);
+            g2d.drawString(df.format(pos.getX()) + ", " + df.format(pos.getY()), 200, 65 + i * 15);
             g2d.drawString(df.format(dist), 420, 65 + i * 15);
-            g2d.drawString(df.format(rotationAngle*180/Math.PI), 500, 65 + i * 15);
+            g2d.drawString(df.format(rotationAngle * 180 / Math.PI), 500, 65 + i * 15);
         }
         if (drawInfo) {
-            g2d.drawString(name, (int) (pos.x * scale - offset.getX()), (int) (pos.y * scale - offset.getY()) + 20);
+            g2d.drawString(name, (int) (pos.getX() * scale - offset.getX()), (int) (pos.getY() * scale - offset.getY()) + 20);
 //            g2d.drawString(speed.toString(), (int) (pos.x * scale - offset.getX()), (int) (pos.y * scale - offset.getY()) + 30);
 //            g2d.drawString(pos.toString(), (int) (pos.x * scale - offset.getX()), (int) (pos.y * scale - offset.getY()) + 40);
 //            g2d.drawString(dist.toString(), (int) (pos.x * scale - offset.getX()), (int) (pos.y * scale - offset.getY()) + 50);
@@ -59,8 +60,8 @@ public class Mass {
         if (drawDist)
             massList.forEach(mass1 -> {
                 if (mass1 != this) {
-                    g2d.drawLine((int) (pos.x * scale - offset.getX()), (int) (pos.y * scale - offset.getY()),
-                            (int) (mass1.pos.x * scale - offset.getX()), (int) (mass1.pos.y * scale - offset.getY()));
+                    g2d.drawLine((int) (pos.getX() * scale - offset.getX()), (int) (pos.getY() * scale - offset.getY()),
+                            (int) (mass1.pos.getX() * scale - offset.getX()), (int) (mass1.pos.getY() * scale - offset.getY()));
                 }
             });
     }
@@ -70,29 +71,30 @@ public class Mass {
             if (mass1 != this) {
                 double dx = -(pos.getX() - mass1.pos.getX());
                 double dy = -(pos.getY() - mass1.pos.getY());
-                double dist2 = (Math.pow(dx, 2) + Math.pow(dy, 2));
+                double dz = -(pos.getZ() - mass1.pos.getZ());
+                double dist2 = (Math.pow(dx, 2) + Math.pow(dy, 2) + Math.pow(dz, 2));
                 double dist = Math.sqrt(dist2);
                 if (mass1.name.equals("Sun"))
                     this.dist = dist;
                 double acc = 6.67e-20 * mass1.mass / dist2;
                 double accx = dx * (acc / dist);
                 double accy = dy * (acc / dist);
+                double accz = dz * (acc / dist);
 
-                speed.setLocation(speed.getX() + accx * delta, speed.getY() + accy * delta);
+                speed = speed.add(accx * delta, accy * delta, accz * delta);
 
             }
         });
-        pos.setLocation(pos.getX() + speed.getX() * delta,
-                pos.getY() + speed.getY() * delta);
+        pos = pos.add(speed.getX() * delta, speed.getY() * delta, speed.getZ() * delta);
         rotationAngle += rotationSpeed * delta;
-        rotationAngle = rotationAngle % (2*Math.PI);
+        rotationAngle = rotationAngle % (2 * Math.PI);
     }
 
-    public Point2D getMin() {
-        return new Point2D.Double(pos.getX() - radius, pos.getY() - radius);
+    public Point3D getMin() {
+        return new Point3D(pos.getX() - radius, pos.getY() - radius, pos.getZ() - radius);
     }
 
-    public Point2D getMax() {
-        return new Point2D.Double(pos.getX() + radius, pos.getY() + radius);
+    public Point3D getMax() {
+        return new Point3D(pos.getX() + radius, pos.getY() + radius, pos.getZ() + radius);
     }
 }

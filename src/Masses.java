@@ -1,5 +1,7 @@
 
 
+import javafx.geometry.Point3D;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Point2D;
@@ -26,26 +28,30 @@ public class Masses extends JPanel {
     public void paintComponent(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
         g.setColor(Color.black);
-        Point2D min = massList.get(0).getMin();
-        Point2D max = massList.get(0).getMax();
-        massList.forEach(mass -> {
-            Point2D massMin = mass.getMin();
+        Point3D min = massList.get(0).getMin();
+        Point3D max = massList.get(0).getMax();
+        for (Mass mass1 : massList) {
+            Point3D massMin = mass1.getMin();
             if (massMin.getX() < min.getX())
-                min.setLocation(massMin.getX(), min.getY());
+                min = new Point3D(massMin.getX(), min.getY(), min.getZ());
             if (massMin.getY() < min.getY())
-                min.setLocation(min.getX(), massMin.getY());
-            Point2D massMax = mass.getMax();
+                min  = new Point3D(min.getX(), massMin.getY(), min.getZ());
+            if (massMin.getZ() < min.getZ())
+                min  = new Point3D(min.getX(), min.getY(), massMin.getZ());
+            Point3D massMax = mass1.getMax();
             if (massMax.getX() > max.getX())
-                max.setLocation(massMax.getX(), max.getY());
+                max = new Point3D(massMax.getX(), max.getY(), max.getZ());
             if (massMax.getY() > max.getY())
-                max.setLocation(max.getX(), massMax.getY());
-        });
+                max = new Point3D(max.getX(), massMax.getY(), max.getZ());
+            if (massMax.getZ() > max.getZ())
+                max = new Point3D(max.getX(),max.getY(), massMax.getZ());
+        }
 //        Point2D offset = new Point2D.Float(-300, -300);
 //        float scale = .0000005F;
 //        float scale = min((float) (600 / (max.getX() - min.getX())), (float) (600 / (max.getY() - min.getY())));
 //        Point2D offset = new Point2D.Float((float) min.getX() * scale , (float) min.getY() * scale );
 
-        offset.setLocation(massList.get(focus).pos.x * scale - g.getClipBounds().getCenterX(), massList.get(focus).pos.y * scale - g.getClipBounds().getCenterY());
+        offset.setLocation(massList.get(focus).pos.getX() * scale - g.getClipBounds().getCenterX(), massList.get(focus).pos.getY() * scale - g.getClipBounds().getCenterY());
 
         if (drawTable) {
             g2d.drawString("name", 10, 50);

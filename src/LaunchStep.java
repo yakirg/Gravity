@@ -1,3 +1,4 @@
+import javafx.geometry.Point3D;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -9,6 +10,6 @@ public class LaunchStep {
     double end;
 
     double powerLevel;
-    double direction;
+    Point3D direction;
 
 }
