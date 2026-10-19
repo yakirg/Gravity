@@ -1,0 +1,613 @@
+java 25.0.2 javafx 25.0.2+4 cpus 16 maxHeap 4058MB
+pipeline com.sun.prism.d3d.D3DPipeline
+[08:33:40.818] STAGE no rocket
+[08:33:40.823] STATE pause=true autoScale=true launchPending=true
+[08:33:40.823] t_real=0.0 fps=1.0 worstFrame=16ms render=211.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:41.630] t_real=1.0 fps=31.2 worstFrame=270ms render=1.6ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:42.639] t_real=2.0 fps=59.5 worstFrame=33ms render=0.9ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:43.644] t_real=3.0 fps=58.6 worstFrame=32ms render=0.6ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:44.683] t_real=4.1 fps=52.0 worstFrame=126ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:45.693] t_real=5.1 fps=61.4 worstFrame=31ms render=0.6ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:46.701] t_real=6.1 fps=57.5 worstFrame=33ms render=0.6ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:47.710] t_real=7.1 fps=57.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:48.717] t_real=8.1 fps=55.6 worstFrame=77ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:49.724] t_real=9.1 fps=58.6 worstFrame=32ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:51.011] t_real=10.4 fps=43.5 worstFrame=359ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:52.013] t_real=11.4 fps=41.9 worstFrame=119ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:53.021] t_real=12.4 fps=58.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:54.028] t_real=13.4 fps=57.6 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:55.037] t_real=14.4 fps=53.5 worstFrame=76ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:56.061] t_real=15.5 fps=55.7 worstFrame=36ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:57.082] t_real=16.5 fps=53.8 worstFrame=33ms render=0.6ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:58.093] t_real=17.5 fps=59.4 worstFrame=32ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:33:59.102] t_real=18.5 fps=57.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:00.110] t_real=19.5 fps=57.6 worstFrame=32ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:01.117] t_real=20.5 fps=57.6 worstFrame=32ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:02.126] t_real=21.5 fps=46.6 worstFrame=240ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:03.140] t_real=22.5 fps=55.2 worstFrame=38ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:04.141] t_real=23.5 fps=52.9 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:05.149] t_real=24.5 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:06.157] t_real=25.6 fps=56.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:07.181] t_real=26.6 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:08.189] t_real=27.6 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:09.198] t_real=28.6 fps=59.5 worstFrame=32ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:10.205] t_real=29.6 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:11.214] t_real=30.6 fps=52.6 worstFrame=36ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:12.221] t_real=31.6 fps=55.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:13.228] t_real=32.6 fps=58.6 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:14.236] t_real=33.6 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:15.244] t_real=34.6 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:16.252] t_real=35.7 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:17.260] t_real=36.7 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:18.269] t_real=37.7 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:19.276] t_real=38.7 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:20.285] t_real=39.7 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:21.292] t_real=40.7 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:22.300] t_real=41.7 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:23.308] t_real=42.7 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:24.316] t_real=43.7 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:25.324] t_real=44.7 fps=56.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:26.331] t_real=45.7 fps=57.6 worstFrame=32ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:27.340] t_real=46.7 fps=56.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:28.365] t_real=47.8 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:29.367] t_real=48.8 fps=58.0 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:30.381] t_real=49.8 fps=57.2 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:31.389] t_real=50.8 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:32.396] t_real=51.8 fps=53.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:33.404] t_real=52.8 fps=60.5 worstFrame=31ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:34.412] t_real=53.8 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:35.420] t_real=54.8 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:36.428] t_real=55.8 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:37.437] t_real=56.8 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:38.444] t_real=57.8 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:39.452] t_real=58.9 fps=59.5 worstFrame=31ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:40.460] t_real=59.9 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:41.468] t_real=60.9 fps=56.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:42.476] t_real=61.9 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:43.484] t_real=62.9 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:44.493] t_real=63.9 fps=56.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=1 delta=0.00010 stage=no rocket
+[08:34:45.483] KEY SPACE (autoScale=true pause=true)
+[08:34:45.487] STATE pause=false autoScale=true launchPending=true
+[08:34:45.500] t_real=64.9 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=120.0 actualSpeed=119x simSpeed=1 delta=60.00000 stage=no rocket
+[08:34:46.508] t_real=65.9 fps=59.5 worstFrame=32ms render=0.6ms/frame steps/frame=1 sim=3720.0 actualSpeed=3572x simSpeed=8 delta=60.00000 stage=no rocket
+[08:34:47.517] t_real=66.9 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=1 sim=7380.0 actualSpeed=3629x simSpeed=60 delta=60.00000 stage=no rocket
+[08:34:48.524] t_real=67.9 fps=59.6 worstFrame=32ms render=0.4ms/frame steps/frame=1 sim=10980.0 actualSpeed=3573x simSpeed=450 delta=60.00000 stage=no rocket
+[08:34:49.533] t_real=68.9 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=1 sim=14640.0 actualSpeed=3629x simSpeed=3381 delta=60.00000 stage=no rocket
+[08:34:50.541] t_real=69.9 fps=59.5 worstFrame=32ms render=0.4ms/frame steps/frame=2 sim=22020.0 actualSpeed=7322x simSpeed=4771 delta=60.00000 stage=no rocket
+[08:34:51.549] t_real=70.9 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=1 sim=26798.7 actualSpeed=4741x simSpeed=2562 delta=50.89018 stage=no rocket
+[08:34:52.556] t_real=72.0 fps=59.5 worstFrame=32ms render=0.4ms/frame steps/frame=1 sim=29162.1 actualSpeed=2345x simSpeed=1347 delta=27.01788 stage=no rocket
+[08:34:53.566] t_real=73.0 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=1 sim=30416.8 actualSpeed=1244x simSpeed=724 delta=14.34394 stage=no rocket
+[08:34:54.573] t_real=74.0 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=1 sim=31090.5 actualSpeed=669x simSpeed=382 delta=7.53913 stage=no rocket
+[08:34:55.581] t_real=75.0 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=1 sim=31440.6 actualSpeed=347x simSpeed=205 delta=4.00256 stage=no rocket
+[08:34:56.588] t_real=76.0 fps=60.5 worstFrame=31ms render=0.4ms/frame steps/frame=1 sim=31626.5 actualSpeed=184x simSpeed=110 delta=2.12498 stage=no rocket
+[08:34:57.596] t_real=77.0 fps=59.5 worstFrame=31ms render=0.3ms/frame steps/frame=1 sim=31725.1 actualSpeed=98x simSpeed=59 delta=1.12817 stage=no rocket
+[08:34:58.604] t_real=78.0 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=1 sim=31777.5 actualSpeed=52x simSpeed=30 delta=0.59895 stage=no rocket
+[08:34:59.612] t_real=79.0 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=1 sim=31805.7 actualSpeed=28x simSpeed=15 delta=0.31481 stage=no rocket
+[08:35:00.621] t_real=80.0 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=1 sim=31820.4 actualSpeed=15x simSpeed=10 delta=0.16546 stage=no rocket
+[08:35:01.628] t_real=81.0 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=3 sim=31833.6 actualSpeed=13x simSpeed=10 delta=0.03281 stage=no rocket
+[08:35:02.050] STAGE Liftoff  [Stage 1]
+[08:35:02.050] STATE pause=false autoScale=true launchPending=false
+[08:35:02.639] t_real=82.0 fps=52.5 worstFrame=113ms render=2.2ms/frame steps/frame=130 sim=31843.3 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Liftoff  [Stage 1]
+[08:35:02.799] STAGE Pitch-over  [Stage 1]
+[08:35:03.645] t_real=83.0 fps=59.6 worstFrame=32ms render=0.5ms/frame steps/frame=166 sim=31853.2 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Pitch-over  [Stage 1]
+[08:35:04.653] t_real=84.1 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=163 sim=31863.2 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Pitch-over  [Stage 1]
+[08:35:05.661] t_real=85.1 fps=59.5 worstFrame=32ms render=0.4ms/frame steps/frame=166 sim=31873.2 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Pitch-over  [Stage 1]
+[08:35:06.669] t_real=86.1 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=163 sim=31883.1 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Pitch-over  [Stage 1]
+[08:35:07.677] t_real=87.1 fps=59.6 worstFrame=32ms render=0.4ms/frame steps/frame=166 sim=31893.0 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Pitch-over  [Stage 1]
+[08:35:08.062] STAGE First-stage ascent  [Stage 1]
+[08:35:08.686] t_real=88.1 fps=60.5 worstFrame=32ms render=0.4ms/frame steps/frame=163 sim=31903.0 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:09.693] t_real=89.1 fps=59.6 worstFrame=32ms render=0.4ms/frame steps/frame=166 sim=31912.9 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:10.719] t_real=90.1 fps=59.6 worstFrame=32ms render=0.4ms/frame steps/frame=166 sim=31923.1 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:11.725] t_real=91.1 fps=60.5 worstFrame=31ms render=0.4ms/frame steps/frame=163 sim=31933.0 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:12.733] t_real=92.1 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=164 sim=31943.0 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:13.742] t_real=93.1 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=166 sim=31953.0 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:14.750] t_real=94.1 fps=60.5 worstFrame=31ms render=0.3ms/frame steps/frame=164 sim=31963.0 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:15.757] t_real=95.2 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=165 sim=31972.9 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:16.766] t_real=96.2 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=164 sim=31982.8 actualSpeed=10x simSpeed=10 delta=0.00100 stage=First-stage ascent  [Stage 1]
+[08:35:17.199] STAGE Powered ascent  [Stage 1]
+[08:35:17.773] t_real=97.2 fps=59.6 worstFrame=32ms render=0.4ms/frame steps/frame=167 sim=31992.8 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 1]
+[08:35:18.415] STAGE Powered ascent  [Stage 2]
+[08:35:18.800] t_real=98.2 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=165 sim=32002.9 actualSpeed=10x simSpeed=11 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:19.806] t_real=99.2 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32012.9 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:20.815] t_real=100.2 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=166 sim=32022.8 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:21.822] t_real=101.2 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=164 sim=32032.8 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:22.830] t_real=102.2 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=166 sim=32042.8 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:23.837] t_real=103.2 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32052.8 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:24.845] t_real=104.2 fps=59.5 worstFrame=31ms render=0.3ms/frame steps/frame=166 sim=32062.7 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:25.853] t_real=105.3 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=163 sim=32072.7 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:26.861] t_real=106.3 fps=59.5 worstFrame=32ms render=0.4ms/frame steps/frame=165 sim=32082.6 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:27.870] t_real=107.3 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32092.5 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:28.877] t_real=108.3 fps=59.5 worstFrame=31ms render=0.4ms/frame steps/frame=166 sim=32102.5 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:29.885] t_real=109.3 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=163 sim=32112.4 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:30.893] t_real=110.3 fps=59.5 worstFrame=31ms render=0.3ms/frame steps/frame=166 sim=32122.4 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:31.916] t_real=111.3 fps=59.7 worstFrame=32ms render=0.3ms/frame steps/frame=165 sim=32132.5 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:32.925] t_real=112.3 fps=60.4 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32142.5 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:33.934] t_real=113.3 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32152.4 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:34.942] t_real=114.3 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=166 sim=32162.4 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Powered ascent  [Stage 2]
+[08:35:35.406] STAGE Orbit insertion  [Stage 2]
+[08:35:35.967] t_real=115.4 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=166 sim=32172.5 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:36.973] t_real=116.4 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32182.5 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:37.982] t_real=117.4 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=165 sim=32192.4 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:38.990] t_real=118.4 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=163 sim=32202.3 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:39.999] t_real=119.4 fps=59.5 worstFrame=31ms render=0.3ms/frame steps/frame=167 sim=32212.3 actualSpeed=10x simSpeed=10 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:41.130] t_real=120.5 fps=50.0 worstFrame=160ms render=0.8ms/frame steps/frame=188 sim=32222.8 actualSpeed=9x simSpeed=7 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:42.302] t_real=121.7 fps=6.0 worstFrame=240ms render=2.3ms/frame steps/frame=1446 sim=32233.0 actualSpeed=9x simSpeed=11 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:43.350] t_real=122.7 fps=7.6 worstFrame=192ms render=1.8ms/frame steps/frame=1100 sim=32241.8 actualSpeed=8x simSpeed=10 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:44.452] t_real=123.8 fps=8.2 worstFrame=208ms render=1.6ms/frame steps/frame=1089 sim=32251.6 actualSpeed=9x simSpeed=11 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:45.626] t_real=125.0 fps=6.8 worstFrame=304ms render=1.5ms/frame steps/frame=1376 sim=32262.6 actualSpeed=9x simSpeed=12 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:46.643] t_real=126.0 fps=7.8 worstFrame=192ms render=1.7ms/frame steps/frame=1136 sim=32271.7 actualSpeed=9x simSpeed=8 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:47.686] t_real=127.1 fps=7.7 worstFrame=224ms render=1.4ms/frame steps/frame=1077 sim=32280.3 actualSpeed=8x simSpeed=12 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:48.725] t_real=128.1 fps=7.7 worstFrame=224ms render=1.4ms/frame steps/frame=1161 sim=32289.6 actualSpeed=9x simSpeed=9 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:49.736] t_real=129.1 fps=7.9 worstFrame=193ms render=1.4ms/frame steps/frame=1171 sim=32298.9 actualSpeed=9x simSpeed=12 delta=0.00100 stage=Orbit insertion  [Stage 2]
+[08:35:50.863] STAGE Parking orbit coast  [Stage 2]
+[08:35:50.863] t_real=130.3 fps=7.0 worstFrame=224ms render=1.5ms/frame steps/frame=999 sim=32309.9 actualSpeed=10x simSpeed=13 delta=0.42255 stage=Parking orbit coast  [Stage 2]
+[08:35:51.983] t_real=131.4 fps=8.0 worstFrame=191ms render=1.6ms/frame steps/frame=17 sim=32376.2 actualSpeed=59x simSpeed=126 delta=0.42248 stage=Parking orbit coast  [Stage 2]
+[08:35:53.055] t_real=132.5 fps=6.5 worstFrame=176ms render=1.5ms/frame steps/frame=95 sim=32656.6 actualSpeed=261x simSpeed=184 delta=0.42218 stage=Parking orbit coast  [Stage 2]
+[08:35:54.861] t_real=134.3 fps=2.8 worstFrame=1216ms render=1.4ms/frame steps/frame=84 sim=32833.9 actualSpeed=98x simSpeed=56 delta=0.42200 stage=Parking orbit coast  [Stage 2]
+[08:35:55.967] t_real=135.4 fps=8.1 worstFrame=177ms render=1.4ms/frame steps/frame=42 sim=32992.5 actualSpeed=144x simSpeed=166 delta=0.42185 stage=Parking orbit coast  [Stage 2]
+[08:35:57.038] t_real=136.4 fps=8.4 worstFrame=160ms render=1.9ms/frame steps/frame=35 sim=33126.7 actualSpeed=125x simSpeed=118 delta=0.42173 stage=Parking orbit coast  [Stage 2]
+[08:35:59.182] t_real=138.6 fps=2.8 worstFrame=1375ms render=1.4ms/frame steps/frame=41 sim=33231.3 actualSpeed=49x simSpeed=34 delta=0.42165 stage=Parking orbit coast  [Stage 2]
+[08:36:00.285] t_real=139.7 fps=8.2 worstFrame=144ms render=1.5ms/frame steps/frame=18 sim=33300.8 actualSpeed=63x simSpeed=49 delta=0.42160 stage=Parking orbit coast  [Stage 2]
+[08:36:01.358] t_real=140.8 fps=8.4 worstFrame=128ms render=1.6ms/frame steps/frame=14 sim=33353.1 actualSpeed=49x simSpeed=36 delta=0.42156 stage=Parking orbit coast  [Stage 2]
+[08:36:03.822] t_real=143.2 fps=2.4 worstFrame=1680ms render=1.4ms/frame steps/frame=12 sim=33383.0 actualSpeed=12x simSpeed=7 delta=0.42154 stage=Parking orbit coast  [Stage 2]
+[08:36:04.910] t_real=144.3 fps=7.4 worstFrame=160ms render=1.7ms/frame steps/frame=7 sim=33404.9 actualSpeed=20x simSpeed=17 delta=0.42153 stage=Parking orbit coast  [Stage 2]
+[08:36:05.933] t_real=145.3 fps=7.8 worstFrame=129ms render=1.5ms/frame steps/frame=6 sim=33423.9 actualSpeed=19x simSpeed=20 delta=0.42152 stage=Parking orbit coast  [Stage 2]
+[08:36:07.038] t_real=146.4 fps=6.3 worstFrame=193ms render=1.6ms/frame steps/frame=5 sim=33439.5 actualSpeed=14x simSpeed=8 delta=0.42151 stage=Parking orbit coast  [Stage 2]
+[08:36:09.581] t_real=149.0 fps=1.6 worstFrame=1904ms render=1.5ms/frame steps/frame=5 sim=33447.5 actualSpeed=3x simSpeed=2 delta=0.42150 stage=Parking orbit coast  [Stage 2]
+[08:36:10.589] t_real=150.0 fps=6.9 worstFrame=160ms render=1.7ms/frame steps/frame=4 sim=33456.4 actualSpeed=9x simSpeed=9 delta=0.26267 stage=Parking orbit coast  [Stage 2]
+[08:36:11.725] t_real=151.1 fps=6.2 worstFrame=223ms render=1.8ms/frame steps/frame=13 sim=33467.3 actualSpeed=10x simSpeed=7 delta=0.04095 stage=Parking orbit coast  [Stage 2]
+[08:36:11.987] STAGE Trans-lunar injection  [Stage 2]
+[08:36:13.204] t_real=152.6 fps=3.4 worstFrame=943ms render=1.5ms/frame steps/frame=862 sim=33473.3 actualSpeed=4x simSpeed=2 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:14.431] t_real=153.8 fps=5.8 worstFrame=288ms render=1.5ms/frame steps/frame=1280 sim=33482.3 actualSpeed=7x simSpeed=14 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:15.432] t_real=154.8 fps=5.9 worstFrame=224ms render=1.9ms/frame steps/frame=1556 sim=33491.6 actualSpeed=9x simSpeed=9 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:16.440] t_real=155.8 fps=6.0 worstFrame=224ms render=1.5ms/frame steps/frame=1398 sim=33500.0 actualSpeed=8x simSpeed=10 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:17.544] t_real=156.9 fps=6.3 worstFrame=272ms render=1.5ms/frame steps/frame=1421 sim=33510.0 actualSpeed=9x simSpeed=12 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:18.661] t_real=158.1 fps=7.1 worstFrame=207ms render=1.6ms/frame steps/frame=1192 sim=33519.5 actualSpeed=9x simSpeed=12 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:19.671] t_real=159.1 fps=6.9 worstFrame=208ms render=1.5ms/frame steps/frame=1283 sim=33528.5 actualSpeed=9x simSpeed=12 delta=0.00100 stage=Trans-lunar injection  [Stage 2]
+[08:36:20.568] STAGE Translunar coast  [Stage 2]
+[08:36:20.766] t_real=160.2 fps=6.3 worstFrame=239ms render=1.5ms/frame steps/frame=976 sim=33539.5 actualSpeed=10x simSpeed=17 delta=0.42200 stage=Translunar coast  [Stage 2]
+[08:36:21.855] t_real=161.3 fps=8.3 worstFrame=144ms render=1.9ms/frame steps/frame=20 sim=33615.4 actualSpeed=70x simSpeed=148 delta=0.42638 stage=Translunar coast  [Stage 2]
+[08:36:22.977] t_real=162.4 fps=6.2 worstFrame=192ms render=1.6ms/frame steps/frame=204 sim=34352.9 actualSpeed=658x simSpeed=1391 delta=0.68278 stage=Translunar coast  [Stage 2]
+[08:36:24.664] t_real=164.1 fps=2.4 worstFrame=1121ms render=1.6ms/frame steps/frame=741 sim=41864.9 actualSpeed=4471x simSpeed=11573 delta=7.05382 stage=Translunar coast  [Stage 2]
+[08:36:25.710] t_real=165.1 fps=6.6 worstFrame=176ms render=1.8ms/frame steps/frame=121 sim=50827.9 actualSpeed=8494x simSpeed=9384 delta=15.19150 stage=Translunar coast  [Stage 2]
+[08:36:26.800] t_real=166.2 fps=6.4 worstFrame=240ms render=2.0ms/frame steps/frame=82 sim=62167.9 actualSpeed=10414x simSpeed=9652 delta=25.22587 stage=Translunar coast  [Stage 2]
+[08:36:27.889] t_real=167.3 fps=2.8 worstFrame=801ms render=1.7ms/frame steps/frame=156 sim=76655.1 actualSpeed=13318x simSpeed=22784 delta=37.49621 stage=Translunar coast  [Stage 2]
+[08:36:28.991] t_real=168.4 fps=6.3 worstFrame=177ms render=1.8ms/frame steps/frame=40 sim=88405.9 actualSpeed=10645x simSpeed=9107 delta=46.99549 stage=Translunar coast  [Stage 2]
+[08:36:30.095] t_real=169.5 fps=7.2 worstFrame=144ms render=1.8ms/frame steps/frame=28 sim=99802.9 actualSpeed=10324x simSpeed=11099 delta=55.83324 stage=Translunar coast  [Stage 2]
+[08:36:31.134] t_real=170.5 fps=5.8 worstFrame=223ms render=1.6ms/frame steps/frame=31 sim=110704.0 actualSpeed=10486x simSpeed=15306 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:33.230] t_real=172.6 fps=1.4 worstFrame=1696ms render=1.7ms/frame steps/frame=33 sim=116644.0 actualSpeed=2834x simSpeed=2908 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:34.303] t_real=173.7 fps=6.5 worstFrame=176ms render=1.9ms/frame steps/frame=21 sim=125284.0 actualSpeed=8058x simSpeed=12093 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:35.437] t_real=174.8 fps=7.0 worstFrame=145ms render=1.8ms/frame steps/frame=23 sim=136084.0 actualSpeed=9513x simSpeed=7147 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:36.639] t_real=176.0 fps=5.8 worstFrame=209ms render=1.9ms/frame steps/frame=30 sim=148864.0 actualSpeed=10647x simSpeed=14652 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:39.294] t_real=178.7 fps=1.5 worstFrame=1935ms render=1.6ms/frame steps/frame=57 sim=162484.0 actualSpeed=5129x simSpeed=15257 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:40.416] t_real=179.8 fps=6.2 worstFrame=176ms render=1.9ms/frame steps/frame=26 sim=173584.0 actualSpeed=9906x simSpeed=12030 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:41.470] t_real=180.9 fps=5.7 worstFrame=208ms render=1.7ms/frame steps/frame=28 sim=183784.0 actualSpeed=9662x simSpeed=8285 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:42.494] t_real=181.9 fps=5.9 worstFrame=240ms render=1.7ms/frame steps/frame=30 sim=194464.0 actualSpeed=10427x simSpeed=13005 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:45.167] t_real=184.6 fps=1.9 worstFrame=1744ms render=1.8ms/frame steps/frame=66 sim=214204.0 actualSpeed=7388x simSpeed=24006 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:46.190] t_real=185.6 fps=5.9 worstFrame=192ms render=1.8ms/frame steps/frame=28 sim=224344.0 actualSpeed=9897x simSpeed=6488 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:47.279] t_real=186.7 fps=6.4 worstFrame=161ms render=1.8ms/frame steps/frame=25 sim=235024.0 actualSpeed=9818x simSpeed=12520 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:48.462] t_real=187.9 fps=5.9 worstFrame=224ms render=1.9ms/frame steps/frame=27 sim=246484.0 actualSpeed=9681x simSpeed=11166 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:51.054] t_real=190.5 fps=1.5 worstFrame=1872ms render=1.7ms/frame steps/frame=39 sim=255724.0 actualSpeed=3565x simSpeed=3437 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:52.159] t_real=191.6 fps=5.4 worstFrame=225ms render=2.0ms/frame steps/frame=28 sim=265744.0 actualSpeed=9073x simSpeed=13040 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:53.294] t_real=192.7 fps=6.2 worstFrame=174ms render=1.6ms/frame steps/frame=27 sim=277024.0 actualSpeed=9934x simSpeed=11365 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:54.350] t_real=193.7 fps=5.7 worstFrame=208ms render=1.6ms/frame steps/frame=29 sim=287284.0 actualSpeed=9717x simSpeed=6692 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:55.582] t_real=195.0 fps=4.1 worstFrame=483ms render=1.8ms/frame steps/frame=43 sim=300304.0 actualSpeed=10568x simSpeed=6180 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:57.535] t_real=196.9 fps=0.5 worstFrame=1952ms render=1.8ms/frame steps/frame=140 sim=308704.0 actualSpeed=4303x simSpeed=16800 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:58.693] t_real=198.1 fps=2.6 worstFrame=664ms render=2.1ms/frame steps/frame=99 sim=326584.0 actualSpeed=15437x simSpeed=10374 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:36:59.745] t_real=199.1 fps=6.7 worstFrame=224ms render=1.9ms/frame steps/frame=26 sim=337504.0 actualSpeed=10389x simSpeed=10941 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:00.815] t_real=200.2 fps=6.5 worstFrame=175ms render=1.7ms/frame steps/frame=22 sim=346924.0 actualSpeed=8795x simSpeed=8995 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:02.017] t_real=201.4 fps=4.2 worstFrame=768ms render=2.1ms/frame steps/frame=49 sim=361564.0 actualSpeed=12205x simSpeed=20461 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:03.103] t_real=202.5 fps=6.4 worstFrame=176ms render=1.9ms/frame steps/frame=26 sim=372544.0 actualSpeed=10090x simSpeed=7351 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:04.238] t_real=203.6 fps=7.0 worstFrame=145ms render=1.8ms/frame steps/frame=23 sim=383644.0 actualSpeed=9776x simSpeed=8915 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:05.870] t_real=205.3 fps=3.1 worstFrame=1056ms render=1.7ms/frame steps/frame=50 sim=398524.0 actualSpeed=9118x simSpeed=18191 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:06.879] t_real=206.3 fps=5.9 worstFrame=192ms render=2.1ms/frame steps/frame=26 sim=407764.0 actualSpeed=9159x simSpeed=10426 delta=60.00000 stage=Translunar coast  [Stage 2]
+[08:37:08.402] t_real=207.8 fps=4.7 worstFrame=624ms render=1.9ms/frame steps/frame=1132 sim=417437.5 actualSpeed=6433x simSpeed=18988 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:09.491] t_real=208.9 fps=5.5 worstFrame=193ms render=2.1ms/frame steps/frame=2808 sim=425861.5 actualSpeed=7740x simSpeed=10177 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:10.561] t_real=209.9 fps=5.6 worstFrame=192ms render=1.8ms/frame steps/frame=2708 sim=433986.0 actualSpeed=7584x simSpeed=12790 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:11.566] t_real=210.9 fps=5.0 worstFrame=287ms render=1.7ms/frame steps/frame=2644 sim=440595.5 actualSpeed=6556x simSpeed=8736 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:12.610] t_real=212.0 fps=5.8 worstFrame=192ms render=1.7ms/frame steps/frame=2827 sim=449076.0 actualSpeed=8157x simSpeed=12026 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:13.614] t_real=213.0 fps=6.9 worstFrame=176ms render=1.7ms/frame steps/frame=2435 sim=457597.0 actualSpeed=8446x simSpeed=9534 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:14.717] t_real=214.1 fps=7.2 worstFrame=161ms render=1.9ms/frame steps/frame=2564 sim=467851.0 actualSpeed=9289x simSpeed=9206 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:15.789] t_real=215.2 fps=7.5 worstFrame=160ms render=1.7ms/frame steps/frame=2447 sim=477640.5 actualSpeed=9130x simSpeed=7747 delta=0.50000 stage=Translunar coast  [Stage 2]
+[08:37:16.305] STAGE Lunar orbit insertion  [Stage 2]
+[08:37:16.819] STAGE Lunar orbit  [Stage 2]
+[08:37:16.819] t_real=216.2 fps=7.7 worstFrame=176ms render=1.7ms/frame steps/frame=1433 sim=481268.3 actualSpeed=3491x simSpeed=9 delta=3.11120 stage=Lunar orbit  [Stage 2]
+[08:37:17.902] t_real=217.3 fps=8.3 worstFrame=144ms render=1.7ms/frame steps/frame=2 sim=481321.2 actualSpeed=49x simSpeed=80 delta=3.11131 stage=Lunar orbit  [Stage 2]
+[08:37:19.006] t_real=218.4 fps=6.3 worstFrame=176ms render=1.8ms/frame steps/frame=18 sim=481707.3 actualSpeed=350x simSpeed=724 delta=3.11781 stage=Lunar orbit  [Stage 2]
+[08:37:20.247] t_real=219.6 fps=1.6 worstFrame=1077ms render=1.8ms/frame steps/frame=241 sim=483229.9 actualSpeed=1230x simSpeed=2719 delta=3.23847 stage=Lunar orbit  [Stage 2]
+[08:37:21.329] t_real=220.7 fps=7.4 worstFrame=208ms render=2.1ms/frame steps/frame=252 sim=491683.1 actualSpeed=7810x simSpeed=12443 delta=5.81654 stage=Lunar orbit  [Stage 2]
+[08:37:22.437] t_real=221.8 fps=4.5 worstFrame=570ms render=1.6ms/frame steps/frame=382 sim=508763.9 actualSpeed=15480x simSpeed=24900 delta=12.90250 stage=Lunar orbit  [Stage 2]
+[08:37:23.438] t_real=222.8 fps=6.9 worstFrame=177ms render=1.7ms/frame steps/frame=100 sim=519022.1 actualSpeed=10176x simSpeed=8895 delta=16.30195 stage=Lunar orbit  [Stage 2]
+[08:37:24.991] t_real=224.4 fps=5.2 worstFrame=640ms render=1.6ms/frame steps/frame=63 sim=527784.5 actualSpeed=5645x simSpeed=1803 delta=18.46030 stage=Lunar orbit  [Stage 2]
+[08:37:26.031] t_real=225.4 fps=6.7 worstFrame=176ms render=1.8ms/frame steps/frame=41 sim=533267.7 actualSpeed=5274x simSpeed=7030 delta=19.44264 stage=Lunar orbit  [Stage 2]
+[08:37:27.150] t_real=226.5 fps=7.1 worstFrame=208ms render=1.7ms/frame steps/frame=28 sim=537691.5 actualSpeed=3950x simSpeed=2924 delta=20.02452 stage=Lunar orbit  [Stage 2]
+[08:37:28.334] t_real=227.7 fps=2.5 worstFrame=928ms render=1.6ms/frame steps/frame=72 sim=542041.7 actualSpeed=3674x simSpeed=6991 delta=20.41145 stage=Lunar orbit  [Stage 2]
+[08:37:29.341] t_real=228.7 fps=6.9 worstFrame=160ms render=1.8ms/frame steps/frame=16 sim=544335.6 actualSpeed=2276x simSpeed=1222 delta=20.54104 stage=Lunar orbit  [Stage 2]
+[08:37:30.398] t_real=229.8 fps=7.6 worstFrame=145ms render=2.0ms/frame steps/frame=8 sim=545672.6 actualSpeed=1266x simSpeed=1369 delta=20.59277 stage=Lunar orbit  [Stage 2]
+[08:37:32.032] t_real=231.4 fps=3.1 worstFrame=1088ms render=1.9ms/frame steps/frame=7 sim=546373.1 actualSpeed=429x simSpeed=234 delta=20.61287 stage=Lunar orbit  [Stage 2]
+[08:37:33.069] t_real=232.5 fps=6.7 worstFrame=175ms render=1.8ms/frame steps/frame=4 sim=547012.3 actualSpeed=615x simSpeed=441 delta=20.62699 stage=Lunar orbit  [Stage 2]
+[08:37:34.142] t_real=233.5 fps=7.5 worstFrame=144ms render=1.9ms/frame steps/frame=4 sim=547610.7 actualSpeed=558x simSpeed=473 delta=20.63656 stage=Lunar orbit  [Stage 2]
+[08:37:35.998] t_real=235.4 fps=3.2 worstFrame=1136ms render=1.6ms/frame steps/frame=3 sim=548013.7 actualSpeed=217x simSpeed=115 delta=18.13617 stage=Lunar orbit  [Stage 2]
+[08:37:37.054] t_real=236.5 fps=6.6 worstFrame=176ms render=1.6ms/frame steps/frame=3 sim=548311.0 actualSpeed=282x simSpeed=242 delta=12.26429 stage=Lunar orbit  [Stage 2]
+[08:37:38.174] t_real=237.6 fps=7.1 worstFrame=160ms render=1.8ms/frame steps/frame=3 sim=548520.1 actualSpeed=187x simSpeed=162 delta=8.13360 stage=Lunar orbit  [Stage 2]
+[08:37:39.821] t_real=239.2 fps=3.0 worstFrame=1104ms render=1.6ms/frame steps/frame=3 sim=548612.6 actualSpeed=56x simSpeed=30 delta=6.30784 stage=Lunar orbit  [Stage 2]
+[08:37:40.894] t_real=240.3 fps=6.5 worstFrame=176ms render=1.8ms/frame steps/frame=2 sim=548702.9 actualSpeed=84x simSpeed=60 delta=4.52392 stage=Lunar orbit  [Stage 2]
+[08:37:42.000] t_real=241.4 fps=6.3 worstFrame=239ms render=1.8ms/frame steps/frame=3 sim=548774.0 actualSpeed=64x simSpeed=42 delta=3.12011 stage=Lunar orbit  [Stage 2]
+[08:37:43.598] t_real=243.0 fps=3.1 worstFrame=1024ms render=1.5ms/frame steps/frame=6 sim=548845.8 actualSpeed=45x simSpeed=86 delta=1.70188 stage=Lunar orbit  [Stage 2]
+[08:37:44.685] t_real=244.1 fps=6.4 worstFrame=176ms render=1.7ms/frame steps/frame=3 sim=548877.1 actualSpeed=29x simSpeed=14 delta=1.08548 stage=Lunar orbit  [Stage 2]
+[08:37:45.805] t_real=245.2 fps=7.1 worstFrame=144ms render=1.7ms/frame steps/frame=3 sim=548895.6 actualSpeed=17x simSpeed=16 delta=0.71995 stage=Lunar orbit  [Stage 2]
+[08:37:47.470] t_real=246.9 fps=3.0 worstFrame=1104ms render=1.6ms/frame steps/frame=3 sim=548905.9 actualSpeed=6x simSpeed=3 delta=0.51635 stage=Lunar orbit  [Stage 2]
+[08:37:48.528] t_real=247.9 fps=6.6 worstFrame=177ms render=1.7ms/frame steps/frame=4 sim=548916.0 actualSpeed=10x simSpeed=12 delta=0.31671 stage=Lunar orbit  [Stage 2]
+[08:37:49.661] t_real=249.1 fps=7.0 worstFrame=147ms render=1.7ms/frame steps/frame=7 sim=548926.9 actualSpeed=10x simSpeed=7 delta=0.10190 stage=Lunar orbit  [Stage 2]
+[08:37:50.248] STAGE Circularization burn  [Stage 2]
+[08:37:51.350] t_real=250.7 fps=3.0 worstFrame=1104ms render=1.6ms/frame steps/frame=406 sim=548933.8 actualSpeed=4x simSpeed=2 delta=0.00100 stage=Circularization burn  [Stage 2]
+[08:37:51.519] STAGE Circular lunar orbit  [Stage 2]
+[08:37:52.446] t_real=251.8 fps=6.3 worstFrame=176ms render=1.8ms/frame steps/frame=11 sim=549078.4 actualSpeed=131x simSpeed=21 delta=20.64527 stage=Circular lunar orbit  [Stage 2]
+[08:37:53.454] t_real=252.9 fps=6.9 worstFrame=160ms render=1.7ms/frame steps/frame=1 sim=549243.5 actualSpeed=164x simSpeed=161 delta=20.64523 stage=Circular lunar orbit  [Stage 2]
+[08:37:54.495] t_real=253.9 fps=2.9 worstFrame=719ms render=1.7ms/frame steps/frame=8 sim=549759.7 actualSpeed=496x simSpeed=832 delta=20.64512 stage=Circular lunar orbit  [Stage 2]
+[08:37:55.583] t_real=255.0 fps=6.4 worstFrame=191ms render=1.8ms/frame steps/frame=27 sim=553599.5 actualSpeed=3531x simSpeed=7324 delta=20.64365 stage=Circular lunar orbit  [Stage 2]
+[08:37:56.686] t_real=256.1 fps=6.3 worstFrame=192ms render=1.8ms/frame steps/frame=78 sim=564825.6 actualSpeed=10172x simSpeed=12346 delta=20.62330 stage=Circular lunar orbit  [Stage 2]
+[08:37:57.871] t_real=257.3 fps=2.5 worstFrame=912ms render=1.6ms/frame steps/frame=64 sim=568804.3 actualSpeed=3359x simSpeed=2499 delta=20.60565 stage=Circular lunar orbit  [Stage 2]
+[08:37:58.975] t_real=258.4 fps=6.3 worstFrame=192ms render=1.6ms/frame steps/frame=62 sim=577671.9 actualSpeed=8033x simSpeed=11086 delta=20.53516 stage=Circular lunar orbit  [Stage 2]
+[08:38:00.095] t_real=259.5 fps=7.1 worstFrame=145ms render=1.6ms/frame steps/frame=68 sim=588760.7 actualSpeed=9900x simSpeed=12971 delta=20.36685 stage=Circular lunar orbit  [Stage 2]
+[08:38:01.199] t_real=260.6 fps=2.7 worstFrame=832ms render=1.5ms/frame steps/frame=63 sim=592602.4 actualSpeed=3481x simSpeed=2430 delta=20.28400 stage=Circular lunar orbit  [Stage 2]
+[08:38:02.302] t_real=261.7 fps=5.4 worstFrame=256ms render=2.0ms/frame steps/frame=65 sim=600473.5 actualSpeed=7130x simSpeed=9148 delta=20.07242 stage=Circular lunar orbit  [Stage 2]
+[08:38:03.327] t_real=262.7 fps=6.8 worstFrame=161ms render=1.8ms/frame steps/frame=74 sim=610761.9 actualSpeed=10046x simSpeed=8166 delta=19.71557 stage=Circular lunar orbit  [Stage 2]
+[08:38:04.609] t_real=264.0 fps=3.1 worstFrame=847ms render=1.8ms/frame steps/frame=217 sim=627570.2 actualSpeed=13136x simSpeed=25652 delta=19.00280 stage=Circular lunar orbit  [Stage 2]
+[08:38:05.710] t_real=265.1 fps=6.3 worstFrame=177ms render=1.6ms/frame steps/frame=89 sim=639251.7 actualSpeed=10578x simSpeed=9476 delta=18.51126 stage=Circular lunar orbit  [Stage 2]
+[08:38:06.862] t_real=266.3 fps=6.9 worstFrame=160ms render=1.6ms/frame steps/frame=79 sim=650805.0 actualSpeed=10033x simSpeed=11000 delta=18.13642 stage=Circular lunar orbit  [Stage 2]
+[08:38:07.935] t_real=267.3 fps=2.8 worstFrame=720ms render=1.7ms/frame steps/frame=51 sim=653556.8 actualSpeed=2566x simSpeed=4966 delta=18.07382 stage=Circular lunar orbit  [Stage 2]
+[08:38:08.959] t_real=268.4 fps=6.8 worstFrame=176ms render=1.7ms/frame steps/frame=74 sim=662882.4 actualSpeed=9103x simSpeed=9110 delta=17.95920 stage=Circular lunar orbit  [Stage 2]
+[08:38:10.753] t_real=270.1 fps=4.5 worstFrame=816ms render=1.6ms/frame steps/frame=141 sim=683232.4 actualSpeed=11362x simSpeed=21812 delta=18.28535 stage=Circular lunar orbit  [Stage 2]
+[08:38:11.822] t_real=271.2 fps=5.6 worstFrame=272ms render=1.7ms/frame steps/frame=82 sim=692296.4 actualSpeed=8453x simSpeed=8880 delta=18.65319 stage=Circular lunar orbit  [Stage 2]
+[08:38:12.958] t_real=272.4 fps=7.0 worstFrame=144ms render=1.6ms/frame steps/frame=73 sim=703289.9 actualSpeed=9680x simSpeed=10562 delta=19.20469 stage=Circular lunar orbit  [Stage 2]
+[08:38:13.967] t_real=273.4 fps=3.0 worstFrame=688ms render=1.6ms/frame steps/frame=209 sim=715553.6 actualSpeed=12157x simSpeed=10978 delta=19.84951 stage=Circular lunar orbit  [Stage 2]
+[08:38:14.972] KEY F1 (autoScale=true pause=false)
+[08:38:14.976] t_real=274.4 fps=6.9 worstFrame=176ms render=1.7ms/frame steps/frame=67 sim=724990.2 actualSpeed=9348x simSpeed=8750 delta=20.29475 stage=Circular lunar orbit  [Stage 2]
+[08:38:16.722] t_real=276.1 fps=4.6 worstFrame=770ms render=1.7ms/frame steps/frame=116 sim=744158.9 actualSpeed=10995x simSpeed=19197 delta=20.89634 stage=Circular lunar orbit  [Stage 2]
+[08:38:17.774] t_real=277.2 fps=6.6 worstFrame=177ms render=1.6ms/frame steps/frame=65 sim=753718.7 actualSpeed=9067x simSpeed=6509 delta=21.01147 stage=Circular lunar orbit  [Stage 2]
+[08:38:18.879] t_real=278.3 fps=7.2 worstFrame=145ms render=1.7ms/frame steps/frame=62 sim=764059.7 actualSpeed=9359x simSpeed=6835 delta=21.00429 stage=Circular lunar orbit  [Stage 2]
+[08:38:19.967] t_real=279.4 fps=2.8 worstFrame=784ms render=1.6ms/frame steps/frame=249 sim=779704.7 actualSpeed=14380x simSpeed=14125 delta=20.79693 stage=Circular lunar orbit  [Stage 2]
+[08:38:21.007] t_real=280.4 fps=6.7 worstFrame=176ms render=1.6ms/frame steps/frame=74 sim=790381.6 actualSpeed=10269x simSpeed=12034 delta=20.58235 stage=Circular lunar orbit  [Stage 2]
+[08:38:22.576] t_real=282.0 fps=4.5 worstFrame=720ms render=1.6ms/frame steps/frame=125 sim=808251.5 actualSpeed=11399x simSpeed=20622 delta=20.23095 stage=Circular lunar orbit  [Stage 2]
+[08:38:23.663] t_real=283.1 fps=6.4 worstFrame=177ms render=1.6ms/frame steps/frame=81 sim=819613.6 actualSpeed=10442x simSpeed=7971 delta=20.07160 stage=Circular lunar orbit  [Stage 2]
+[08:38:24.739] t_real=284.1 fps=7.5 worstFrame=144ms render=1.6ms/frame steps/frame=61 sim=829366.1 actualSpeed=9091x simSpeed=9248 delta=19.98770 stage=Circular lunar orbit  [Stage 2]
+[08:38:25.855] t_real=285.3 fps=2.7 worstFrame=751ms render=1.5ms/frame steps/frame=281 sim=846165.0 actualSpeed=15003x simSpeed=8330 delta=19.92645 stage=Circular lunar orbit  [Stage 2]
+[08:38:26.942] t_real=286.3 fps=6.4 worstFrame=207ms render=1.7ms/frame steps/frame=74 sim=856460.6 actualSpeed=9470x simSpeed=12676 delta=19.89908 stage=Circular lunar orbit  [Stage 2]
+[08:38:28.334] t_real=287.7 fps=4.3 worstFrame=687ms render=1.7ms/frame steps/frame=68 sim=864591.6 actualSpeed=5841x simSpeed=2730 delta=19.85717 stage=Circular lunar orbit  [Stage 2]
+[08:38:29.406] t_real=288.8 fps=6.5 worstFrame=176ms render=1.6ms/frame steps/frame=67 sim=873925.3 actualSpeed=8705x simSpeed=12313 delta=19.76804 stage=Circular lunar orbit  [Stage 2]
+[08:38:30.478] t_real=289.9 fps=7.5 worstFrame=145ms render=1.7ms/frame steps/frame=65 sim=884204.8 actualSpeed=9590x simSpeed=7517 delta=19.60583 stage=Circular lunar orbit  [Stage 2]
+[08:38:31.728] t_real=291.1 fps=2.4 worstFrame=896ms render=1.7ms/frame steps/frame=170 sim=894130.5 actualSpeed=7955x simSpeed=14641 delta=19.38684 stage=Circular lunar orbit  [Stage 2]
+[08:38:32.799] t_real=292.2 fps=6.5 worstFrame=177ms render=1.7ms/frame steps/frame=75 sim=904201.6 actualSpeed=9388x simSpeed=11280 delta=19.12261 stage=Circular lunar orbit  [Stage 2]
+[08:38:33.918] t_real=293.3 fps=7.1 worstFrame=144ms render=1.7ms/frame steps/frame=76 sim=915752.6 actualSpeed=10320x simSpeed=13272 delta=18.81850 stage=Circular lunar orbit  [Stage 2]
+[08:38:35.023] t_real=294.4 fps=2.7 worstFrame=768ms render=1.7ms/frame steps/frame=56 sim=918926.5 actualSpeed=2873x simSpeed=5806 delta=18.74442 stage=Circular lunar orbit  [Stage 2]
+[08:38:36.031] t_real=295.4 fps=6.9 worstFrame=176ms render=1.6ms/frame steps/frame=79 sim=929255.6 actualSpeed=10249x simSpeed=12108 delta=18.56297 stage=Circular lunar orbit  [Stage 2]
+[08:38:37.791] t_real=297.2 fps=4.5 worstFrame=801ms render=1.6ms/frame steps/frame=66 sim=939092.6 actualSpeed=5587x simSpeed=2302 delta=18.51130 stage=Circular lunar orbit  [Stage 2]
+[08:38:38.879] t_real=298.3 fps=6.4 worstFrame=192ms render=1.7ms/frame steps/frame=60 sim=946914.5 actualSpeed=7194x simSpeed=9879 delta=18.57543 stage=Circular lunar orbit  [Stage 2]
+[08:38:39.967] t_real=299.4 fps=7.4 worstFrame=144ms render=1.7ms/frame steps/frame=71 sim=957525.8 actualSpeed=9753x simSpeed=11757 delta=18.81719 stage=Circular lunar orbit  [Stage 2]
+[08:38:41.118] t_real=300.5 fps=2.6 worstFrame=864ms render=1.7ms/frame steps/frame=66 sim=961244.7 actualSpeed=3230x simSpeed=2270 delta=18.94048 stage=Circular lunar orbit  [Stage 2]
+[08:38:42.190] t_real=301.6 fps=5.6 worstFrame=256ms render=1.7ms/frame steps/frame=67 sim=968860.3 actualSpeed=7103x simSpeed=9433 delta=19.24302 stage=Circular lunar orbit  [Stage 2]
+[08:38:43.199] t_real=302.6 fps=6.9 worstFrame=160ms render=1.9ms/frame steps/frame=70 sim=978336.5 actualSpeed=9401x simSpeed=7579 delta=19.68191 stage=Circular lunar orbit  [Stage 2]
+[08:38:44.449] t_real=303.8 fps=3.2 worstFrame=848ms render=2.6ms/frame steps/frame=190 sim=993571.4 actualSpeed=12208x simSpeed=22316 delta=20.40165 stage=Circular lunar orbit  [Stage 2]
+[08:38:45.534] t_real=304.9 fps=6.4 worstFrame=177ms render=1.6ms/frame steps/frame=72 sim=1003918.4 actualSpeed=9509x simSpeed=7428 delta=20.80362 stage=Circular lunar orbit  [Stage 2]
+[08:38:46.671] t_real=306.1 fps=7.0 worstFrame=145ms render=1.8ms/frame steps/frame=68 sim=1015322.2 actualSpeed=10033x simSpeed=8292 delta=21.09140 stage=Circular lunar orbit  [Stage 2]
+[08:38:47.758] t_real=307.2 fps=2.8 worstFrame=784ms render=1.6ms/frame steps/frame=50 sim=1018510.7 actualSpeed=2931x simSpeed=3396 delta=21.13699 stage=Circular lunar orbit  [Stage 2]
+[08:38:48.782] t_real=308.2 fps=6.8 worstFrame=176ms render=1.7ms/frame steps/frame=60 sim=1027401.4 actualSpeed=8683x simSpeed=12799 delta=21.17857 stage=Circular lunar orbit  [Stage 2]
+[08:38:49.887] t_real=309.3 fps=7.2 worstFrame=144ms render=1.9ms/frame steps/frame=63 sim=1037970.1 actualSpeed=9571x simSpeed=7652 delta=21.06888 stage=Circular lunar orbit  [Stage 2]
+[08:38:51.441] t_real=310.8 fps=2.6 worstFrame=1056ms render=1.6ms/frame steps/frame=179 sim=1052884.8 actualSpeed=9611x simSpeed=19810 delta=20.67142 stage=Circular lunar orbit  [Stage 2]
+[08:38:52.512] t_real=311.9 fps=6.5 worstFrame=192ms render=1.9ms/frame steps/frame=73 sim=1063331.1 actualSpeed=9741x simSpeed=7506 delta=20.28780 stage=Circular lunar orbit  [Stage 2]
+[08:38:53.647] t_real=313.0 fps=7.0 worstFrame=144ms render=1.7ms/frame steps/frame=67 sim=1074112.4 actualSpeed=9493x simSpeed=8410 delta=19.87007 stage=Circular lunar orbit  [Stage 2]
+[08:38:54.818] t_real=314.2 fps=2.6 worstFrame=896ms render=1.6ms/frame steps/frame=221 sim=1087112.3 actualSpeed=11130x simSpeed=20754 delta=19.42489 stage=Circular lunar orbit  [Stage 2]
+[08:38:55.919] t_real=315.3 fps=6.3 worstFrame=176ms render=1.6ms/frame steps/frame=77 sim=1097450.8 actualSpeed=9363x simSpeed=7677 delta=19.17032 stage=Circular lunar orbit  [Stage 2]
+[08:38:57.006] t_real=316.4 fps=6.4 worstFrame=209ms render=1.7ms/frame steps/frame=70 sim=1106769.6 actualSpeed=8572x simSpeed=11592 delta=19.03746 stage=Circular lunar orbit  [Stage 2]
+[08:38:58.270] t_real=317.7 fps=3.2 worstFrame=831ms render=1.7ms/frame steps/frame=73 sim=1112303.6 actualSpeed=4377x simSpeed=2754 delta=19.00253 stage=Circular lunar orbit  [Stage 2]
+[08:38:59.358] t_real=318.8 fps=6.4 worstFrame=176ms render=1.6ms/frame steps/frame=63 sim=1120663.1 actualSpeed=7685x simSpeed=11808 delta=19.00524 stage=Circular lunar orbit  [Stage 2]
+[08:39:00.479] t_real=319.9 fps=7.1 worstFrame=144ms render=1.6ms/frame steps/frame=75 sim=1132049.8 actualSpeed=10159x simSpeed=12788 delta=19.08954 stage=Circular lunar orbit  [Stage 2]
+[08:39:01.615] t_real=321.0 fps=2.6 worstFrame=816ms render=3.0ms/frame steps/frame=259 sim=1146927.9 actualSpeed=13096x simSpeed=13294 delta=19.25838 stage=Circular lunar orbit  [Stage 2]
+[08:39:02.670] t_real=322.1 fps=6.6 worstFrame=175ms render=1.6ms/frame steps/frame=74 sim=1156988.7 actualSpeed=9536x simSpeed=10802 delta=19.35740 stage=Circular lunar orbit  [Stage 2]
+[08:39:03.791] t_real=323.2 fps=7.1 worstFrame=145ms render=1.8ms/frame steps/frame=71 sim=1168023.5 actualSpeed=9847x simSpeed=12637 delta=19.41998 stage=Circular lunar orbit  [Stage 2]
+[08:39:04.911] t_real=324.3 fps=2.7 worstFrame=784ms render=1.7ms/frame steps/frame=52 sim=1171073.0 actualSpeed=2722x simSpeed=5525 delta=19.42746 stage=Circular lunar orbit  [Stage 2]
+[08:39:05.919] t_real=325.3 fps=6.9 worstFrame=160ms render=1.8ms/frame steps/frame=68 sim=1180282.8 actualSpeed=9135x simSpeed=10680 delta=19.42732 stage=Circular lunar orbit  [Stage 2]
+[08:39:07.005] t_real=326.4 fps=7.4 worstFrame=144ms render=1.6ms/frame steps/frame=67 sim=1190612.1 actualSpeed=9502x simSpeed=6630 delta=19.40233 stage=Circular lunar orbit  [Stage 2]
+[08:39:08.031] t_real=327.4 fps=2.0 worstFrame=849ms render=1.6ms/frame steps/frame=281 sim=1201509.4 actualSpeed=10633x simSpeed=10626 delta=19.38322 stage=Circular lunar orbit  [Stage 2]
+[08:39:09.086] t_real=328.5 fps=6.6 worstFrame=176ms render=1.6ms/frame steps/frame=66 sim=1210428.8 actualSpeed=8448x simSpeed=8669 delta=19.40423 stage=Circular lunar orbit  [Stage 2]
+[08:39:10.095] t_real=329.5 fps=6.9 worstFrame=160ms render=1.8ms/frame steps/frame=69 sim=1219798.7 actualSpeed=9295x simSpeed=7477 delta=19.48707 stage=Circular lunar orbit  [Stage 2]
+[08:39:11.344] t_real=330.7 fps=2.4 worstFrame=816ms render=1.7ms/frame steps/frame=311 sim=1238115.3 actualSpeed=14676x simSpeed=11433 delta=19.86726 stage=Circular lunar orbit  [Stage 2]
+[08:39:12.415] t_real=331.8 fps=6.5 worstFrame=177ms render=1.7ms/frame steps/frame=71 sim=1248083.8 actualSpeed=9298x simSpeed=9574 delta=20.17547 stage=Circular lunar orbit  [Stage 2]
+[08:39:14.146] t_real=333.5 fps=4.6 worstFrame=768ms render=1.8ms/frame steps/frame=126 sim=1268704.6 actualSpeed=11936x simSpeed=22294 delta=20.84891 stage=Circular lunar orbit  [Stage 2]
+[08:39:15.215] t_real=334.6 fps=6.5 worstFrame=186ms render=1.9ms/frame steps/frame=69 sim=1278774.5 actualSpeed=9397x simSpeed=7415 delta=21.09276 stage=Circular lunar orbit  [Stage 2]
+[08:39:16.222] t_real=335.6 fps=6.9 worstFrame=160ms render=1.6ms/frame steps/frame=67 sim=1288765.4 actualSpeed=9912x simSpeed=6970 delta=21.21953 stage=Circular lunar orbit  [Stage 2]
+[08:39:17.294] t_real=336.7 fps=2.8 worstFrame=783ms render=1.7ms/frame steps/frame=70 sim=1293244.5 actualSpeed=4179x simSpeed=2333 delta=21.23097 stage=Circular lunar orbit  [Stage 2]
+[08:39:18.350] t_real=337.7 fps=6.6 worstFrame=176ms render=1.8ms/frame steps/frame=50 sim=1300711.7 actualSpeed=7069x simSpeed=9363 delta=21.18202 stage=Circular lunar orbit  [Stage 2]
+[08:39:19.439] t_real=338.8 fps=7.3 worstFrame=261ms render=1.7ms/frame steps/frame=53 sim=1309723.6 actualSpeed=8278x simSpeed=6225 delta=21.00859 stage=Circular lunar orbit  [Stage 2]
+[08:39:20.767] t_real=340.2 fps=2.3 worstFrame=1056ms render=1.6ms/frame steps/frame=61 sim=1313537.5 actualSpeed=2872x simSpeed=2391 delta=20.89921 stage=Circular lunar orbit  [Stage 2]
+[08:39:21.119] KEY R (autoScale=true pause=false)
+[08:39:21.206] STAGE no rocket
+[08:39:21.206] STATE pause=true autoScale=true launchPending=true
+[08:39:21.772] t_real=341.2 fps=30.8 worstFrame=192ms render=2.7ms/frame steps/frame=1 sim=0.0 actualSpeed=-1303844x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:22.796] t_real=342.2 fps=58.6 worstFrame=43ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:23.805] t_real=343.2 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:24.813] t_real=344.2 fps=54.6 worstFrame=63ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:25.816] t_real=345.2 fps=51.8 worstFrame=162ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:26.829] t_real=346.2 fps=59.2 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:27.837] t_real=347.2 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:28.845] t_real=348.2 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:29.852] t_real=349.3 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:30.860] t_real=350.3 fps=54.6 worstFrame=63ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:31.869] t_real=351.3 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:32.876] t_real=352.3 fps=57.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:33.885] t_real=353.3 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:34.892] t_real=354.3 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:35.900] t_real=355.3 fps=57.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:36.908] t_real=356.3 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:37.916] t_real=357.3 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:38.924] t_real=358.3 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:39.949] t_real=359.3 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:40.957] t_real=360.4 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:41.966] t_real=361.4 fps=56.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:42.972] t_real=362.4 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:43.981] t_real=363.4 fps=60.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:44.988] t_real=364.4 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:45.997] t_real=365.4 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:47.005] t_real=366.4 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:48.014] t_real=367.4 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:49.020] t_real=368.4 fps=60.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:50.028] t_real=369.4 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:51.037] t_real=370.4 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:52.044] t_real=371.4 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:53.053] t_real=372.5 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:54.060] t_real=373.5 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:55.069] t_real=374.5 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:56.076] t_real=375.5 fps=57.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:57.084] t_real=376.5 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:58.092] t_real=377.5 fps=55.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:39:59.100] t_real=378.5 fps=56.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:00.109] t_real=379.5 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:01.132] t_real=380.5 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:02.141] t_real=381.5 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:03.148] t_real=382.5 fps=59.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:04.156] t_real=383.6 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:05.165] t_real=384.6 fps=56.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:06.173] t_real=385.6 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:07.180] t_real=386.6 fps=59.5 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:08.188] t_real=387.6 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:09.213] t_real=388.6 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:10.220] t_real=389.6 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:11.229] t_real=390.6 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:12.236] t_real=391.6 fps=60.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:13.244] t_real=392.6 fps=59.5 worstFrame=34ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:14.252] t_real=393.7 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:15.261] t_real=394.7 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:16.268] t_real=395.7 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:17.276] t_real=396.7 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:18.285] t_real=397.7 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:19.293] t_real=398.7 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:20.301] t_real=399.7 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:21.316] t_real=400.7 fps=59.1 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:22.317] t_real=401.7 fps=60.9 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:23.324] t_real=402.7 fps=57.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:24.332] t_real=403.7 fps=60.5 worstFrame=32ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:25.340] t_real=404.7 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:26.349] t_real=405.7 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:27.357] t_real=406.8 fps=56.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:28.365] t_real=407.8 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:29.373] t_real=408.8 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:30.380] t_real=409.8 fps=56.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:31.388] t_real=410.8 fps=56.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:32.396] t_real=411.8 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:33.405] t_real=412.8 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:34.428] t_real=413.8 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:35.437] t_real=414.8 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:36.444] t_real=415.8 fps=56.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:37.452] t_real=416.9 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:38.460] t_real=417.9 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:39.468] t_real=418.9 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:40.484] t_real=419.9 fps=58.1 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:41.484] t_real=420.9 fps=59.0 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:42.492] t_real=421.9 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:43.501] t_real=422.9 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:44.509] t_real=423.9 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:45.517] t_real=424.9 fps=58.6 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:46.524] t_real=425.9 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:47.531] t_real=426.9 fps=60.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:48.541] t_real=427.9 fps=60.4 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:49.548] t_real=428.9 fps=60.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:50.556] t_real=430.0 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:51.564] t_real=431.0 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:52.573] t_real=432.0 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:53.581] t_real=433.0 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:54.586] t_real=434.0 fps=58.8 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:55.589] t_real=435.0 fps=61.8 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:56.605] t_real=436.0 fps=57.1 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:57.613] t_real=437.0 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:58.620] t_real=438.0 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:40:59.629] t_real=439.0 fps=56.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:00.636] t_real=440.0 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:01.644] t_real=441.0 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:02.652] t_real=442.1 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:03.661] t_real=443.1 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:04.668] t_real=444.1 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:05.693] t_real=445.1 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:06.701] t_real=446.1 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:07.708] t_real=447.1 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:08.716] t_real=448.1 fps=60.5 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:09.724] t_real=449.1 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:10.733] t_real=450.1 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:11.740] t_real=451.1 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:12.749] t_real=452.1 fps=61.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:13.756] t_real=453.2 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:14.764] t_real=454.2 fps=60.5 worstFrame=32ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:15.772] t_real=455.2 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:16.780] t_real=456.2 fps=58.6 worstFrame=34ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:17.788] t_real=457.2 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:18.812] t_real=458.2 fps=58.6 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:19.820] t_real=459.2 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:20.829] t_real=460.2 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:21.836] t_real=461.2 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:22.845] t_real=462.2 fps=60.4 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:23.853] t_real=463.3 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:24.860] t_real=464.3 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:25.869] t_real=465.3 fps=60.5 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:26.873] t_real=466.3 fps=55.7 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:27.885] t_real=467.3 fps=57.3 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:28.893] t_real=468.3 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:29.901] t_real=469.3 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:30.908] t_real=470.3 fps=57.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:31.915] t_real=471.3 fps=57.7 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:32.925] t_real=472.3 fps=59.4 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:33.933] t_real=473.3 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:34.940] t_real=474.3 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:35.949] t_real=475.3 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:36.957] t_real=476.4 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:37.965] t_real=477.4 fps=60.5 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:38.973] t_real=478.4 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:39.981] t_real=479.4 fps=60.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:40.989] t_real=480.4 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:41.996] t_real=481.4 fps=57.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:43.005] t_real=482.4 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:44.028] t_real=483.4 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:45.036] t_real=484.4 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:46.045] t_real=485.4 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:47.053] t_real=486.5 fps=59.5 worstFrame=33ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:48.061] t_real=487.5 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:49.069] t_real=488.5 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:50.076] t_real=489.5 fps=59.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:51.077] t_real=490.5 fps=56.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:52.108] t_real=491.5 fps=58.2 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:53.117] t_real=492.5 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:54.125] t_real=493.5 fps=58.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:55.132] t_real=494.5 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:56.141] t_real=495.5 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:57.149] t_real=496.5 fps=57.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:58.152] t_real=497.5 fps=56.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:41:59.180] t_real=498.6 fps=59.3 worstFrame=32ms render=0.2ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:00.204] t_real=499.6 fps=58.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:01.213] t_real=500.6 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:02.220] t_real=501.6 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:03.229] t_real=502.6 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:04.236] t_real=503.6 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:05.244] t_real=504.6 fps=52.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:06.252] t_real=505.7 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:07.278] t_real=506.7 fps=58.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:08.284] t_real=507.7 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:09.292] t_real=508.7 fps=61.5 worstFrame=46ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:10.300] t_real=509.7 fps=53.6 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:11.325] t_real=510.7 fps=48.8 worstFrame=48ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:12.333] t_real=511.7 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:13.340] t_real=512.7 fps=60.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:14.342] t_real=513.7 fps=59.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:15.347] t_real=514.7 fps=58.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:16.358] t_real=515.8 fps=56.4 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:17.382] t_real=516.8 fps=52.7 worstFrame=46ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:18.405] t_real=517.8 fps=51.8 worstFrame=61ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:19.420] t_real=518.8 fps=63.1 worstFrame=42ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:20.429] t_real=519.8 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:21.438] t_real=520.8 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:22.458] t_real=521.9 fps=63.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:23.485] t_real=522.9 fps=57.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:24.501] t_real=523.9 fps=58.0 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:25.503] t_real=524.9 fps=62.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:26.524] t_real=525.9 fps=55.8 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:27.532] t_real=526.9 fps=59.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:28.538] t_real=527.9 fps=63.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:29.564] t_real=529.0 fps=63.4 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:30.573] t_real=530.0 fps=62.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:31.580] t_real=531.0 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:32.588] t_real=532.0 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:33.596] t_real=533.0 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:34.607] t_real=534.0 fps=58.3 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:35.613] t_real=535.0 fps=56.7 worstFrame=34ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:36.636] t_real=536.0 fps=59.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:37.654] t_real=537.1 fps=62.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:38.684] t_real=538.1 fps=59.2 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:39.689] t_real=539.1 fps=60.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:40.691] t_real=540.1 fps=62.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:41.693] t_real=541.1 fps=60.8 worstFrame=39ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:42.700] t_real=542.1 fps=57.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:43.705] t_real=543.1 fps=58.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:44.717] t_real=544.1 fps=59.3 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:45.723] t_real=545.1 fps=63.6 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:46.739] t_real=546.1 fps=63.0 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:47.740] t_real=547.1 fps=59.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:48.748] t_real=548.1 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:49.771] t_real=549.2 fps=56.7 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:50.791] t_real=550.2 fps=62.8 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:51.820] t_real=551.2 fps=58.3 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:52.841] t_real=552.2 fps=62.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:53.868] t_real=553.3 fps=62.3 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:54.891] t_real=554.3 fps=60.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:55.901] t_real=555.3 fps=62.3 worstFrame=37ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:56.924] t_real=556.3 fps=56.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:57.932] t_real=557.3 fps=61.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:58.956] t_real=558.4 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:42:59.959] t_real=559.4 fps=58.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:00.972] t_real=560.4 fps=58.2 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:01.981] t_real=561.4 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:02.991] t_real=562.4 fps=58.4 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:04.012] t_real=563.4 fps=58.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:05.021] t_real=564.4 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:06.029] t_real=565.4 fps=65.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:07.036] t_real=566.4 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:08.041] t_real=567.4 fps=63.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:09.052] t_real=568.5 fps=58.3 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:10.077] t_real=569.5 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:11.100] t_real=570.5 fps=60.6 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:12.110] t_real=571.5 fps=42.6 worstFrame=57ms render=0.7ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:13.117] t_real=572.5 fps=52.6 worstFrame=47ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:14.125] t_real=573.5 fps=59.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:15.129] t_real=574.5 fps=54.8 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:16.141] t_real=575.5 fps=59.3 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:17.142] t_real=576.5 fps=59.0 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:18.157] t_real=577.6 fps=63.0 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:19.180] t_real=578.6 fps=57.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:20.188] t_real=579.6 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:21.196] t_real=580.6 fps=60.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:22.204] t_real=581.6 fps=64.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:23.205] t_real=582.6 fps=60.0 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:24.206] t_real=583.6 fps=64.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:25.228] t_real=584.6 fps=58.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:26.232] t_real=585.6 fps=61.8 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:27.261] t_real=586.7 fps=42.7 worstFrame=52ms render=0.6ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:28.269] t_real=587.7 fps=56.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:29.276] t_real=588.7 fps=60.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:30.285] t_real=589.7 fps=56.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:31.293] t_real=590.7 fps=62.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:32.301] t_real=591.7 fps=62.5 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:33.308] t_real=592.7 fps=61.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:34.317] t_real=593.7 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:35.341] t_real=594.7 fps=59.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:36.346] t_real=595.7 fps=58.7 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:37.351] t_real=596.7 fps=58.7 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:38.364] t_real=597.8 fps=63.1 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:39.371] t_real=598.8 fps=58.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:40.381] t_real=599.8 fps=67.3 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:41.388] t_real=600.8 fps=60.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:42.412] t_real=601.8 fps=48.9 worstFrame=57ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:43.420] t_real=602.8 fps=63.4 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:44.422] t_real=603.8 fps=59.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:45.430] t_real=604.8 fps=61.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:46.445] t_real=605.8 fps=52.2 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:47.453] t_real=606.9 fps=54.5 worstFrame=36ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:48.461] t_real=607.9 fps=49.6 worstFrame=48ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:49.465] t_real=608.9 fps=42.8 worstFrame=48ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:50.483] t_real=609.9 fps=53.0 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:51.499] t_real=610.9 fps=58.1 worstFrame=48ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:52.500] t_real=611.9 fps=62.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:53.501] t_real=612.9 fps=68.0 worstFrame=32ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:54.509] t_real=613.9 fps=59.5 worstFrame=33ms render=0.4ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:55.516] t_real=614.9 fps=58.6 worstFrame=43ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:56.524] t_real=615.9 fps=62.5 worstFrame=44ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:57.533] t_real=616.9 fps=52.6 worstFrame=46ms render=0.5ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:58.556] t_real=618.0 fps=60.6 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:43:59.573] t_real=619.0 fps=60.0 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:44:00.589] t_real=620.0 fps=70.9 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:44:01.596] t_real=621.0 fps=66.5 worstFrame=33ms render=0.3ms/frame steps/frame=0 sim=0.0 actualSpeed=0x simSpeed=3395 delta=0.00010 stage=no rocket
+[08:44:02.264] KEY SPACE (autoScale=true pause=true)
+[08:44:02.270] STATE pause=false autoScale=true launchPending=true
+[08:44:02.621] t_real=622.0 fps=66.4 worstFrame=33ms render=0.4ms/frame steps/frame=1 sim=2940.0 actualSpeed=2870x simSpeed=7310 delta=60.00000 stage=no rocket
+[08:44:03.629] t_real=623.0 fps=63.5 worstFrame=33ms render=0.4ms/frame steps/frame=3 sim=14580.0 actualSpeed=11548x simSpeed=8238 delta=60.00000 stage=no rocket
+[08:44:04.638] t_real=624.0 fps=72.4 worstFrame=37ms render=0.4ms/frame steps/frame=2 sim=23100.0 actualSpeed=8445x simSpeed=4078 delta=60.00000 stage=no rocket
+[08:44:05.646] t_real=625.0 fps=61.6 worstFrame=32ms render=0.3ms/frame steps/frame=1 sim=27187.9 actualSpeed=4058x simSpeed=2390 delta=46.95865 stage=no rocket
+[08:44:06.652] t_real=626.1 fps=60.6 worstFrame=33ms render=0.3ms/frame steps/frame=1 sim=29368.7 actualSpeed=2165x simSpeed=1218 delta=24.93061 stage=no rocket
+[08:44:07.654] t_real=627.1 fps=60.9 worstFrame=46ms render=0.3ms/frame steps/frame=1 sim=30603.2 actualSpeed=1233x simSpeed=642 delta=12.46124 stage=no rocket
+[08:44:08.669] t_real=628.1 fps=61.1 worstFrame=33ms render=0.3ms/frame steps/frame=1 sim=31188.4 actualSpeed=577x simSpeed=313 delta=6.54958 stage=no rocket
