@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#000000">
+<title>Gravity</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<style>
+  html, body { margin: 0; height: 100%; background: #000; color: #dfe8f5; font: 13px system-ui, sans-serif; overflow: hidden; touch-action: none; }
+  canvas#view { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  .bar { position: fixed; display: flex; gap: 4px; flex-wrap: wrap; z-index: 5; }
+  #top { top: 6px; right: 6px; justify-content: flex-end; max-width: 70vw; }
+  button { background: rgba(20, 30, 50, .8); color: #dfe8f5; border: 1px solid #456; border-radius: 6px; padding: 7px 10px; font: inherit; cursor: pointer; }
+  button:hover { background: rgba(50, 70, 110, .9); }
+  button.on { border-color: #6cf; color: #6cf; }
+  #info { position: fixed; top: 6px; left: 6px; z-index: 4; text-shadow: 0 0 3px #000, 0 0 3px #000; pointer-events: none; line-height: 1.5; }
+  #info .big { font-size: 16px; }
+  #bodies { position: fixed; top: 80px; left: 6px; z-index: 4; background: rgba(10, 16, 30, .75); border-radius: 6px; max-height: 55vh; overflow: auto; }
+  #bodies table { border-collapse: collapse; }
+  #bodies td, #bodies th { padding: 2px 8px; text-align: right; white-space: nowrap; }
+  #bodies td:first-child, #bodies th:first-child { text-align: left; }
+  #bodies tr.sel { background: rgba(100, 170, 255, .3); }
+  #bodies tbody tr { cursor: pointer; }
+  #timeline { position: fixed; left: 50%; transform: translateX(-50%); bottom: 6px; z-index: 4; max-width: 96vw; }
+  #gauges { position: fixed; right: 8px; bottom: 8px; z-index: 4; width: 170px; text-shadow: 0 0 3px #000; }
+  .gauge { margin-top: 6px; }
+  .gauge .track { height: 8px; background: rgba(255, 255, 255, .15); border-radius: 4px; overflow: hidden; }
+  .gauge .fill { height: 100%; background: #6cf; width: 0; }
+  #zoombar { height: 4px; background: #fff; margin-top: 3px; width: 100px; }
+  #hint { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 4; text-shadow: 0 0 4px #000; pointer-events: none; font-size: 16px; }
+  dialog { background: #101826; color: #dfe8f5; border: 1px solid #567; border-radius: 8px; max-width: 96vw; max-height: 92vh; overflow: auto; padding: 14px; }
+  dialog::backdrop { background: rgba(0, 0, 0, .6); }
+  dialog h3 { margin: 0 0 10px; }
+  dialog table { border-collapse: collapse; margin: 6px 0; }
+  dialog th { font-weight: normal; color: #9ab; text-align: left; padding: 0 4px; }
+  dialog td { padding: 1px 2px; }
+  dialog input[type=text] { background: #0a0f1a; color: inherit; border: 1px solid #456; border-radius: 4px; padding: 4px; width: 90px; font: inherit; }
+  dialog input.wide { width: 150px; }
+  .form { display: grid; grid-template-columns: auto auto auto; gap: 4px 8px; align-items: center; margin-bottom: 8px; }
+  .form label { color: #9ab; }
+  .actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px; }
+  #mapCanvas { width: min(92vw, 900px); height: min(60vh, 450px); display: block; touch-action: none; cursor: crosshair; background: #123; }
+</style>
+</head>
+<body>
+<canvas id="view"></canvas>
+<div id="info"></div>
+<div id="bodies"></div>
+<div id="hint"></div>
+<canvas id="timeline" width="420" height="40"></canvas>
+<div id="gauges">
+  <div class="gauge"><span id="zoomText"></span><div id="zoombar"></div></div>
+  <div class="gauge"><span id="speedText"></span><div class="track"><div class="fill" id="speedFill"></div></div></div>
+</div>
+<div class="bar" id="top">
+  <button id="bPlay" title="Space">&#9654;</button>
+  <button id="bRestart" title="R">&#8634;</button>
+  <button id="bLaunch" title="L">Launch</button>
+  <button id="bAuto" title="A">Auto</button>
+  <button id="bCam" title="C">LaunchCam</button>
+  <button id="bOrbits" title="O">Orbits</button>
+  <button id="bTable" title="T">Table</button>
+  <button id="bPrev" title="[">&#9664;</button>
+  <button id="bNext" title="]">&#9654;</button>
+  <button id="bZoomIn">+</button>
+  <button id="bZoomOut">&minus;</button>
+  <button id="bSave">Save</button>
+  <button id="bLoad">Load</button>
+  <button id="bMasses">Masses</button>
+  <button id="bRocket">Rocket</button>
+</div>
+<input type="file" id="file" accept=".gravity,.json,application/json" hidden>
+
+<dialog id="dlg">
+  <h3 id="dlgTitle"></h3>
+  <div id="dlgBody"></div>
+  <div class="actions"><button id="dlgCancel">Cancel</button><button id="dlgOk">OK</button></div>
+</dialog>
+<dialog id="mapDlg">
+  <h3>Select launch location</h3>
+  <canvas id="mapCanvas"></canvas>
+  <div id="mapText" style="margin-top:6px"></div>
+  <div class="actions"><button id="mapCancel">Cancel</button><button id="mapOk">Select</button></div>
+</dialog>
+
+<script type="importmap">{ "imports": { "three": "./lib/three.module.js" } }</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

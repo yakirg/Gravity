@@ -1,0 +1,398 @@
+{
+  "format": "gravity",
+  "version": 1,
+  "time": 0.0,
+  "masses": [
+    {
+      "name": "Sun",
+      "diameter": 1.0E7,
+      "mass": 2.0000000300949324E30,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationSpeed": 0.0,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Mercury",
+      "diameter": 4879.0,
+      "mass": 3.300000016876774E23,
+      "position": [
+        4.6400137533E7,
+        -3.9448542118E7,
+        -7479548.554
+      ],
+      "velocity": [
+        21.926165,
+        39.39173,
+        1.208269
+      ],
+      "rotationSpeed": 1.239580435E-6,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Venus",
+      "diameter": 12104.0,
+      "mass": 4.866999909161822E24,
+      "position": [
+        1.01442453354E8,
+        3.8031644422E7,
+        -5330480.905
+      ],
+      "velocity": [
+        -12.411037,
+        32.637559,
+        1.164581
+      ],
+      "rotationSpeed": 2.992454696E-7,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Earth",
+      "diameter": 12756.0,
+      "mass": 5.969999912619192E24,
+      "position": [
+        1.35908877737E8,
+        6.1252556329E7,
+        -4276.009
+      ],
+      "velocity": [
+        -12.733557,
+        27.042779,
+        -0.002396
+      ],
+      "rotationSpeed": 7.29211585E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Moon",
+      "diameter": 3475.0,
+      "mass": 7.346000145109223E22,
+      "position": [
+        1.36026104041E8,
+        6.0866707023E7,
+        -27787.109
+      ],
+      "velocity": [
+        -11.813741,
+        27.334411,
+        0.063586
+      ],
+      "rotationSpeed": -2.7132E-6,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Mars",
+      "diameter": 6792.0,
+      "mass": 6.420000163846805E23,
+      "position": [
+        -1.5169192202E7,
+        2.35614538505E8,
+        5309566.55
+      ],
+      "velocity": [
+        -23.261577,
+        0.50075,
+        0.580867
+      ],
+      "rotationSpeed": 7.094834358E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Jupiter",
+      "diameter": 142984.0,
+      "mass": 1.8979999599913296E27,
+      "position": [
+        -5.36703009742E8,
+        5.86048828237E8,
+        9573570.434
+      ],
+      "velocity": [
+        -9.79652,
+        -8.220879,
+        0.253353
+      ],
+      "rotationSpeed": 1.759995884E-4,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Saturn",
+      "diameter": 120536.0,
+      "mass": 5.68000005560064E26,
+      "position": [
+        1.381633175804E9,
+        2.78181551938E8,
+        -5.9842046049E7
+      ],
+      "velocity": [
+        -2.441176,
+        9.444041,
+        -0.066962
+      ],
+      "rotationSpeed": 0.0,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Phobos",
+      "diameter": 22.2,
+      "mass": 1.0659E16,
+      "position": [
+        -1.5161207425E7,
+        2.35617442134E8,
+        5305943.269
+      ],
+      "velocity": [
+        -23.824314,
+        2.558709,
+        0.974421
+      ],
+      "rotationSpeed": 2.28E-4,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Deimos",
+      "diameter": 12.4,
+      "mass": 1.4762E15,
+      "position": [
+        -1.5153614046E7,
+        2.3559888459E8,
+        5301637.968
+      ],
+      "velocity": [
+        -22.411757,
+        1.503886,
+        0.270468
+      ],
+      "rotationSpeed": 5.758E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Io",
+      "diameter": 3643.2,
+      "mass": 8.93E22,
+      "position": [
+        -5.36477169808E8,
+        5.85693577281E8,
+        9563952.868
+      ],
+      "velocity": [
+        4.821786,
+        1.137187,
+        0.801307
+      ],
+      "rotationSpeed": 4.11E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Europa",
+      "diameter": 3121.6,
+      "mass": 4.8E22,
+      "position": [
+        -5.37310506549E8,
+        5.86321644067E8,
+        9569542.996
+      ],
+      "velocity": [
+        -15.395422,
+        -20.875449,
+        -0.240549
+      ],
+      "rotationSpeed": 2.048E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Ganymede",
+      "diameter": 5268.2,
+      "mass": 1.482E23,
+      "position": [
+        -5.37768718276E8,
+        5.8617555278E8,
+        9562829.676
+      ],
+      "velocity": [
+        -11.067205,
+        -18.988759,
+        -0.176819
+      ],
+      "rotationSpeed": 1.016E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Callisto",
+      "diameter": 4820.6,
+      "mass": 1.076E23,
+      "position": [
+        -5.38064742953E8,
+        5.84733540104E8,
+        9514046.993
+      ],
+      "velocity": [
+        -4.105619,
+        -14.061679,
+        0.146998
+      ],
+      "rotationSpeed": 4.357E-6,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Titan",
+      "diameter": 5149.5,
+      "mass": 1.3452E23,
+      "position": [
+        1.382392264665E9,
+        2.78980002234E8,
+        -6.032925687E7
+      ],
+      "velocity": [
+        -6.710729,
+        12.891207,
+        -1.419702
+      ],
+      "rotationSpeed": 4.561E-6,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Rhea",
+      "diameter": 1527.6,
+      "mass": 2.306E21,
+      "position": [
+        1.381967373106E9,
+        2.77809756452E8,
+        -5.9676442512E7
+      ],
+      "velocity": [
+        4.081603,
+        13.971952,
+        -3.076451
+      ],
+      "rotationSpeed": 1.61E-5,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Iapetus",
+      "diameter": 1468.8,
+      "mass": 1.806E21,
+      "position": [
+        1.384960527272E9,
+        2.77330052948E8,
+        -6.0314535478E7
+      ],
+      "velocity": [
+        -1.792878,
+        12.618598,
+        -0.927368
+      ],
+      "rotationSpeed": 9.17E-7,
+      "rotationAngle": 0.0
+    },
+    {
+      "name": "Dione",
+      "diameter": 1122.8,
+      "mass": 1.095E21,
+      "position": [
+        1.381322881443E9,
+        2.78004201587E8,
+        -5.9719254309E7
+      ],
+      "velocity": [
+        3.197615,
+        1.899796,
+        3.337746
+      ],
+      "rotationSpeed": 2.657E-5,
+      "rotationAngle": 0.0
+    }
+  ],
+  "rocket": {
+    "title": "Falcon 9 to lunar orbit from LC-39A",
+    "name": "Falcon 9",
+    "payload": 3000.0,
+    "azimuth": 90.0,
+    "latitude": 28.6084,
+    "longitude": -80.6041,
+    "captureBody": "Moon",
+    "captureApoapsis": 20000.0,
+    "launchSeconds": 31836.83,
+    "stages": [
+      {
+        "name": "Stage 1",
+        "dryMass": 25600.0,
+        "fuel": 411000.0,
+        "thrust": 7607.0,
+        "exhaustSpeed": 3.0
+      },
+      {
+        "name": "Stage 2",
+        "dryMass": 4000.0,
+        "fuel": 107500.0,
+        "thrust": 934.0,
+        "exhaustSpeed": 3.41
+      }
+    ],
+    "steps": [
+      {
+        "name": "Liftoff",
+        "end": 8.0,
+        "power": 1.0,
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "relative": false
+      },
+      {
+        "name": "Pitch-over",
+        "end": 60.0,
+        "power": 1.0,
+        "pitch": 50.408,
+        "yaw": 0.0,
+        "relative": false
+      },
+      {
+        "name": "First-stage ascent",
+        "end": 150.0,
+        "power": 1.0,
+        "pitch": 62.492,
+        "yaw": 0.0,
+        "relative": false
+      },
+      {
+        "name": "Powered ascent",
+        "end": 330.0,
+        "power": 1.0,
+        "pitch": 80.004,
+        "yaw": 0.0,
+        "relative": false
+      },
+      {
+        "name": "Orbit insertion",
+        "end": 470.074,
+        "power": 1.0,
+        "pitch": 94.877,
+        "yaw": 0.0,
+        "relative": false
+      },
+      {
+        "name": "Parking orbit coast",
+        "end": 1632.4370000000001,
+        "power": 0.0,
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "relative": true
+      },
+      {
+        "name": "Trans-lunar injection",
+        "end": 1698.477,
+        "power": 1.0,
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "relative": true
+      }
+    ]
+  }
+}
